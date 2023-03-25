@@ -2138,7 +2138,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-SG', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),
@@ -2193,7 +2193,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-au', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),
@@ -2248,7 +2248,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-ca', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),
@@ -2299,7 +2299,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-gb', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),
@@ -2354,7 +2354,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-ie', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),
@@ -2409,7 +2409,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-il', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),
@@ -2459,7 +2459,7 @@
     //! moment.js locale configuration
 
     moment.defineLocale('en-nz', {
-        months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),
+        months : 'January_February_Marzo_April_May_June_July_August_September_October_November_December'.split('_'),
         monthsShort : 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_'),
         weekdays : 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'),
         weekdaysShort : 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_'),

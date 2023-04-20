@@ -2075,7 +2075,7 @@ ul.nav > li a.active, ul.nav > li:hover > a {
 	margin:5px 0;
 	display:inline-block;
 }
-.show-listing .pagination {
+.show-listing .pagination2 {
     margin-top: 0;
 }
 .custom_select_filter span.current {
@@ -2141,7 +2141,7 @@ ul.nav > li a.active, ul.nav > li:hover > a {
 .custom_select_filter .nice-select .option:hover {
 	color:#ffffff;
 }
-.pagination {
+.pagination2 {
     padding-top: 20px;
     padding-bottom: 10px;
     margin: 0 auto;
@@ -2149,12 +2149,12 @@ ul.nav > li a.active, ul.nav > li:hover > a {
     width: 100%;
 	display:block;
 }
-.pagination .nav-links ul {
+.pagination2 .nav-links ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.pagination .nav-links ul li {
+.pagination2 .nav-links ul li {
     display: inline-block;
 }
 .nav-links .page-numbers.active, .nav-links .page-numbers:hover {
@@ -3351,7 +3351,7 @@ box-shadow: 0 0 0 0 rgba(244,68,56,.0);
 	font-weight: 300;
 	color: #f44336;
 }
-.posts-pagination {
+.posts-pagination22 {
 	margin: 50px 0;
 }
 

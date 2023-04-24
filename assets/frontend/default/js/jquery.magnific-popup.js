@@ -1153,7 +1153,7 @@
 			cursor: 'mfp-zoom-out-cur',
 			titleSrc: 'title',
 			verticalFit: true,
-			tError: '<a href="%url%">The image</a> could not be loaded.'
+			tError: ' '
 		},
 
 		proto: {

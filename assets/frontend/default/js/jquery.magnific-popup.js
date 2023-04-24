@@ -905,7 +905,7 @@
 
 			tClose: 'Close (Esc)',
 
-			tLoading: 'Loading...',
+			tLoading: ' ',
 
 			autoFocusLast: true
 

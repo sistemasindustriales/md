@@ -620,7 +620,6 @@ img {
 .vfx-item-sidebar-h h4 {
 	display: inline-block;
 	font-size: 16px;
-	text-transform: capitalize;
 	color: #141414;
 	margin: 0;
 }
@@ -631,7 +630,6 @@ img {
 	display: inline-block;
 	font-size: 20px;
 	font-weight: 700;
-	text-transform: capitalize;
 	color: #222222;
 	margin: 0;
 }
@@ -639,7 +637,6 @@ img {
 	display: inline-block;
 	font-size: 20px;
 	font-weight: 700;
-	text-transform: capitalize;
 	color: #222222;
 	margin: 0;
 }
@@ -657,7 +654,6 @@ img {
 .vfx-item-section span.view-more a{
 	font-size: 15px;
 	font-weight: 700;
-	text-transform: capitalize;
 	color: #2d2b35;
 	float: right;
 	line-height: 26px;

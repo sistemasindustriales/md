@@ -965,19 +965,9 @@ footer {
   }
 }
 
-.reserve-cerrado {
-  font-size: 16px;
-  background: #ff7640;
-  padding: 10px 14px;
-  color: #fff;
-  border-radius: 3px;
-  display: inline-block;
-  vertical-align: top;
-}
-
 .reserve-abierto {
   font-size: 16px;
-  background: #46cd38;
+  background: #00a650;
   padding: 10px 14px;
   color: #fff;
   border-radius: 3px;

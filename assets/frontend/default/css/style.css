@@ -604,7 +604,7 @@ color: #000000;
 }
 
 .closed-now {
-  color: #ff7640;
+  color: #f23d4f;
   font-size: 13px;
   display: block;
   font-weight: 400;
@@ -612,7 +612,7 @@ color: #000000;
 }
 
 .open-now {
-  color: #46cd38;
+  color: #00a650;
   font-size: 13px;
   display: block;
   font-weight: 400;

@@ -189,12 +189,12 @@ body {
 .page-item.active .page-link {
 	z-index: 2;
 	color: #fff;
-	background-color: #ff7640;
-	border-color: #ff7640;
+	background-color: #ea4733;
+	border-color: #ea4733;
 }
 
 .page-link {
-	color: #ff7640;
+	color: #ea4733;
 }
 
 .page-link:focus,
@@ -351,7 +351,7 @@ select {
 
 /* Transition */
 .select:hover::after {
-	color: #ff7640;
+	color: #ea4733;
 }
 
 /* CUSTOM SELECT FOR LANGUAGE ENDS */

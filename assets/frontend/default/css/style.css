@@ -332,7 +332,7 @@ color: #000000;
   font-size: 18px;
   padding: 17px;
   width: 27%;
-  background: #ff7640;
+  background: #ea4733;
   color: #fff;
   border: none;
   border-top-right-radius: 3px;
@@ -441,7 +441,7 @@ color: #000000;
   content: "";
   width: 60px;
   height: 3px;
-  background: #ff7640;
+  background: #ea4733;
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -630,7 +630,7 @@ color: #000000;
 }
 
 .featured-btn-wrap .btn-danger {
-  background: #ff7640;
+  background: #ea4733;
   padding: 16px 50px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1023,13 +1023,13 @@ footer {
 }
 
 .review-btn .btn-outline-danger {
-  color: #ff7640;
-  border-color: #ff7640;
+  color: #ea4733;
+  border-color: #ea4733;
 }
 
 .review-btn .btn-outline-danger:hover {
   color: #fff;
-  background: #ff7640;
+  background: #ea4733;
 }
 
 .reserve-btn {
@@ -1298,14 +1298,14 @@ footer {
   display: block;
   padding: 16px;
   margin: 12px 16px;
-  border: 2px solid #ff7640;
-  color: #ff7640;
+  border: 2px solid #ea4733;
+  color: #ea4733;
   font-weight: 400;
 }
 
 .btn-contact:hover {
-  background: #ff7640;
-  border: 2px solid #ff7640;
+  background: #ea4733;
+  border: 2px solid #ea4733;
 }
 
 .follow {
@@ -1354,7 +1354,7 @@ footer {
 }
 
 .follow a {
-  color: #ff7640;
+  color: #ea4733;
   text-align: center;
   display: block;
   font-size: 14px;

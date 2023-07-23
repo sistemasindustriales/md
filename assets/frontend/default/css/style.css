@@ -646,7 +646,7 @@ color: #000000;
 
 .featured-btn-wrap .btn-danger:hover,
 .featured-btn-wrap .btn-danger:focus {
-  background: #ff672b;
+  background: #ff3233;
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -680,7 +680,7 @@ color: #000000;
 }
 
 .category-wrap:hover .category-block {
-  background: #ff672b;
+  background: #ff3233;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;

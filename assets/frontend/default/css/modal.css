@@ -40,7 +40,6 @@ body.modal-open {
 
 body.modal-open .fixed-top {
 	padding-right: 1rem !important;
-	       
 }
 
 body.modal-open .fixed-bottom {
@@ -53,7 +52,6 @@ body.scrollable {
 
 .modal-dialog .modal-content {
 	border: 0;
-
 	border-radius: 0.125rem;
 	-webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
 		0 4px 15px 0 rgba(0, 0, 0, 0.15);
@@ -67,8 +65,6 @@ body.scrollable {
 
 .modal-dialog.cascading-modal {
 	vertical-align: middle;
-        margin: -2px;
-        height: 100%;
 }
 
 .modal-dialog.cascading-modal .close {

@@ -64,10 +64,7 @@ body.scrollable {
 }
 
 .modal-dialog.cascading-modal {
-	position: absolute;
-    top: 50%;
-    display: table-cell;
-    vertical-align: middle;
+	margin-top: 10%;
 }
 
 .modal-dialog.cascading-modal .close {

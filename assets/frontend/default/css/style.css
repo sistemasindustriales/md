@@ -332,7 +332,7 @@ color: #000000;
   font-size: 18px;
   padding: 17px;
   width: 27%;
-  background: #fe6500;
+  background: #fd3631;
   color: #fff;
   border: none;
   border-top-right-radius: 3px;
@@ -441,7 +441,7 @@ color: #000000;
   content: "";
   width: 60px;
   height: 3px;
-  background: #fe6500;
+  background: #fd3631;
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -630,7 +630,7 @@ color: #000000;
 }
 
 .featured-btn-wrap .btn-danger {
-  background: #fe6500;
+  background: #fd3631;
   padding: 16px 50px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -646,7 +646,7 @@ color: #000000;
 
 .featured-btn-wrap .btn-danger:hover,
 .featured-btn-wrap .btn-danger:focus {
-  background: #f16508;
+  background: #ff332e;
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -680,7 +680,7 @@ color: #000000;
 }
 
 .category-wrap:hover .category-block {
-  background: #f16508;
+  background: #ff332e;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -1023,13 +1023,13 @@ footer {
 }
 
 .review-btn .btn-outline-danger {
-  color: #fe6500;
-  border-color: #fe6500;
+  color: #fd3631;
+  border-color: #fd3631;
 }
 
 .review-btn .btn-outline-danger:hover {
   color: #fff;
-  background: #fe6500;
+  background: #fd3631;
 }
 
 .reserve-btn {
@@ -1298,14 +1298,14 @@ footer {
   display: block;
   padding: 16px;
   margin: 12px 16px;
-  border: 2px solid #fe6500;
-  color: #fe6500;
+  border: 2px solid #fd3631;
+  color: #fd3631;
   font-weight: 400;
 }
 
 .btn-contact:hover {
-  background: #fe6500;
-  border: 2px solid #fe6500;
+  background: #fd3631;
+  border: 2px solid #fd3631;
 }
 
 .follow {
@@ -1354,7 +1354,7 @@ footer {
 }
 
 .follow a {
-  color: #fe6500;
+  color: #fd3631;
   text-align: center;
   display: block;
   font-size: 14px;

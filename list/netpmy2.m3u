@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_5r2"
-#EXTINF:-1 xui-id="217426" tvg-id="" tvg-name="LIGA PRO ECUADOR" tvg-logo="http://playlis3.online:8080/images/9517200b996d219d24ff90a00cbc1bb8.jpg" group-title="ESPAÑA LA LIGA",onedrive
-https://public.bl.files.1drv.com/y4mLpjoVhTUcigfuNooPyYdGcj-xBzb8klDqX7oDTsfHXrBkljHnpJ_rZkM2UYG-gXrvJw_YmUSsMdkJKZnF5NheyaShchw-SYidt59C8iJ2o6ezqmdXRCq1e7DsOsTsvAkbRdOHnS4s0K0ipByHeWa_e9TzsGBOinlwYL0h85hVtnUMHlxiARgoP33G2tUUnVSRPwnThXZ8PnbmeeqfzBQ2sJOwKeJ60hbhG5SPoQm3bs?AVOverride=1&videoformat=dash&part=index&pretranscode=0&transcodeahead=0
+#EXTINF:-1 xui-id="217426" tvg-id="" tvg-name="LIGA PRO ECUADOR" tvg-logo="http://playlis3.online:8080/images/9517200b996d219d24ff90a00cbc1bb8.jpg" group-title="ESPAÑA LA LIGA",megaok
+https://app.multcloud.com/api/files/9c035a324635408ba55d4493cc8f961c/content?

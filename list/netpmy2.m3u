@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_5r2"
-#EXTINF:-1 xui-id="217426" tvg-id="" tvg-name="LIGA PRO ECUADOR" tvg-logo="http://playlis3.online:8080/images/9517200b996d219d24ff90a00cbc1bb8.jpg" group-title="ESPAÑA LA LIGA",ESPAÑA LA LIGA ESPECIAL
+#EXTINF:-1 xui-id="217426" tvg-id="" tvg-name="LIGA PRO ECUADOR" tvg-logo="http://playlis3.online:8080/images/9517200b996d219d24ff90a00cbc1bb8.jpg" group-title="ESPAÑA LA LIGA",pcloud
 https://app.multcloud.com/api/files/ce83fbe89327457a9cde0df2c032c250/content?

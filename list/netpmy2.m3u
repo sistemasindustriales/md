@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1,A&E HD
+#EXTINF:-1 group-title="Peliculas",A&E HD
 http://38.56.118.88:4000/play/a005/index.m3u8
 #EXTINF:-1,AMC HD
 http://38.56.118.88:4000/play/a027/index.m3u8
@@ -193,7 +193,7 @@ http://38.56.118.88:4000/play/a02e/index.m3u8
 http://38.56.118.88:4000/play/a03z/index.m3u8
 #EXTINF:-1,Seæal Colombia HD
 http://38.56.118.88:4000/play/a02m/index.m3u8
-#EXTINF:-1,Sony HD
+#EXTINF:-1,Sony HD, Pelic
 http://38.56.118.88:4000/play/a006/index.m3u8
 #EXTINF:-1,Space HD
 http://38.56.118.88:4000/play/a009/index.m3u8
@@ -231,8 +231,6 @@ http://38.56.118.88:4000/play/a01q/index.m3u8
 http://38.56.118.88:4000/play/a07j/index.m3u8
 #EXTINF:-1,Warner Channel HD
 http://38.56.118.88:4000/play/a007/index.m3u8
-#EXTINF:-1,Willax2
-https://www.dailymotion.com/video/x7naa92
 
 
 

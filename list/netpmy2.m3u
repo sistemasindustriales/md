@@ -231,7 +231,7 @@ http://38.56.118.88:4000/play/a01q/index.m3u8
 http://38.56.118.88:4000/play/a07j/index.m3u8
 #EXTINF:-1,Warner Channel HD
 http://38.56.118.88:4000/play/a007/index.m3u8
-#EXTINF:-1,smith22
-http://216.244.244.252:49412/md/1x1.php
+#EXTINF:-1,test
+http://216.244.244.252:49412/md/get2.php?url=https://s35.gamovideo.com:444/enap5jkyb5nv3h2yughn35kzeypys26y7xjyj5hvqawzhqmwqr3368910462/v.mp4
 
 

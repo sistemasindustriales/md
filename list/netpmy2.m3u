@@ -233,4 +233,10 @@ http://38.56.118.88:4000/play/a07j/index.m3u8
 http://38.56.118.88:4000/play/a007/index.m3u8
 #EXTINF:-1,1406-1
 http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyocl6k7gmikkfn2mcapqni3ekhi3idtaukjjxzmnoyskkn5wbw4nsmqsu/v.mp4
+#EXTINF:-1,1406-2
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyocl6k7gmikkfn2mcapqni3ekhi3idtaukjjxzmnoyskkn5wbw4nsmqsu/v.mp4
+#EXTINF:-1,1406-3
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyocl6k7gmikkfn2mcapqni3ekhi3idtaukjjxzmnoyskkn5wbw4nsmqsu/v.mp4
+#EXTINF:-1,gamo
+http://216.244.244.252:49412/md/get.php?url=https://s29.gamovideo.com:444/fjap5xpbarnv3h2yufc53mczm6rbxp6zewliwjy3wkzzsqbdewxg6ajyfwia/v.mp4
 

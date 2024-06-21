@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT0H2M30S" minBufferTime="PT1.5S">
+  <Period id="1">
+    <AdaptationSet mimeType="video/mp4" codecs="avc1.4d401f,mp4a.40.2" startWithSAP="1" segmentAlignment="true">
+      <Representation id="1" bandwidth="2499968" width="1280" height="720" frameRate="30000/1001" sar="1:1">
+        <BaseURL>http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/gyod2z6xhyikkfn2mbepqoi4mt7abfhnrib4np3l67hjgswdo7xhuhhyby/the-amazing-world-of-gumball-1x2.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

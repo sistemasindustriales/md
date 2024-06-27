@@ -1,3 +1,637 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="tt" tvg-name="Aviones: Equipo de rescate (2014)" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/pZbuCIMWulgQEWdZDzga3n6L8LW.jpg" group-title="Películas" description="", Aviones: Equipo de rescate (2014)
-http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohpnuqnqikkfn2mbfpyo2hgaeniyyd4n3ta3dv6lz2k57nwgsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Cómo entrenar a tu dragón 2 (2014)" tvg-logo="" group-title="Películas" description="", Cómo entrenar a tu dragón 2 (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odzqorhuikkfn2mbr7qyqymod774hxq2fr3euzjjhuaceirr5tp6fj5a/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Frozen: Una aventura congelada (2013)" tvg-logo="POSTER" group-title="Películas" description="", Frozen: Una aventura congelada (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuoho4csnaikkfn2maopyjy4hkw2aznx75iuuecgwamedblnfsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Aviones 2: Equipo de rescate(2014)" tvg-logo="POSTER" group-title="Películas" description="", Aviones 2: Equipo de rescate(2014)
+https://stream-3691-48-220.cdnpvd.co/leohpnuqnqikkfn2mbfpyo2hgaeniyyd4n3ta3dv6lz2k57nwgsdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Justice League: La paradoja del tiempo (2013)" tvg-logo="POSTER" group-title="Películas" description="", Justice League: La paradoja del tiempo (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohpfvrniikkfn2manpymyfhe2bo2nvajin3rzkhjvlfsv7wrckz3uiye/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Dinosaurio (2000)" tvg-logo="POSTER" group-title="Películas" description="", Dinosaurio (2000)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kioho5o5giikkfn2mco7qi2ggfbgtzhnivqqrltpkww6q6ichsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El expreso polar (2004)" tvg-logo="POSTER" group-title="Películas" description="", El expreso polar (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eqoc74ach4ikkfn2mb47qmqsg6sn756qsn4b56pypmu6bhloxmkbcbmyd4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Monstruos vs Aliens (2009)" tvg-logo="POSTER" group-title="Películas" description="", Monstruos vs Aliens (2009)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/f4ocjindeuikkfn2malpqyi2ebwlsws5gb3q4td6va73bn6jmsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Ralph, el demoledor (2012)" tvg-logo="POSTER" group-title="Películas" description="", Ralph, el demoledor (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3591-48-222.cdnpvd.co/lyohornxniikkfn2manpyycnmvcwb2vpetrng5dtk7hcp4tjdywg7dzhpm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Valiente (2012)" tvg-logo="POSTER" group-title="Películas" description="", Valiente (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4ohoeareuikkfn2mae7qiqqgdm2f6qzv5f4wu54nzzobkjifsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La era de hielo 4 (2012)" tvg-logo="POSTER" group-title="Películas" description="", La era de hielo 4 (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpfnkeuikkfn2malpqniyftujdzwabtbzzckngadcjruy2kpn55nob4/v.mp4
+
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Lluvia de hamburguesas 2 (2013)" tvg-logo="POSTER" group-title="Películas" description="", Lluvia de hamburguesas 2 (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odykaogaikkfn2mc77qn2nhexawbqbiiktz6veqmwnfcg5ssdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Los Croods (2013)" tvg-logo="POSTER" group-title="Películas" description="", Los Croods (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4oholw5euikkfn2maf7qnsjhpq3zgrygs5cfz5e3c73gcafhsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Hotel Transylvania (2012)" tvg-logo="POSTER" group-title="Películas" description="", Hotel Transylvania (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohphq3heikkfn2mbjpqlsofyopl2mvx5r532puedhh3v366sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Madagascar 3: Los fugitivos (2012)" tvg-logo="POSTER" group-title="Películas" description="", Madagascar 3: Los fugitivos (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqoho3zahqikkfn2mb2pqjqtemkjp4eh6qnibcqk3v6bqsfufsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Shrek (2001)" tvg-logo="POSTER" group-title="Películas" description="", Shrek (2001)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4ohocbahqikkfn2mb2pqoazgdbqetazsuu2lacyp3y7i4pc6sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Shrek 2 (2004)" tvg-logo="POSTER" group-title="Películas" description="", Shrek 2 (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4491-212-99.cdnpvd.co/keohowwdeuikkfn2maf7qoa3esumpv3iaxxcgplbm35et5g4csdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Shrek tercero (2007)" tvg-logo="POSTER" group-title="Películas" description="", Shrek tercero (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3591-48-222.cdnpvd.co/lyohodzahqikkfn2mb2pqjayhnlhs4uy7fa7oetna7swntephsdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Shrek para siempre (2010)" tvg-logo="POSTER" group-title="Películas" description="", Shrek para siempre (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/guod4cjahqikkfn2mb2pqliugovay3bels5tj5onfxzpomjz6sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Vecinos invasores (2006)" tvg-logo="POSTER" group-title="Películas" description="", Vecinos invasores (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4338-55-56.cdnpvd.co/kyohpkmpguikkfn2md5pqpkmesedekshrxl4ehzcyf75w5kb3sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Tarzán (1999)" tvg-logo="POSTER" group-title="Películas" description="", Tarzán (1999)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohpdwqhuikkfn2mdu76pyphpfo76wak3icbtyxiaxs3uhofsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Up - Una aventura de altura (2009)" tvg-logo="POSTER" group-title="Películas" description="", Up - Una aventura de altura (2009)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohofnteyikkfn2md7p6ya6hhithy5zfhjty432pgn5o346jsdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Vida salvaje (2006)" tvg-logo="POSTER" group-title="Películas" description="", Vida salvaje (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fqocpdheheikkfn2mbppqpajm46e4p2xucwoqajwiy6m6ypqvsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Bolt: Un perro fuera de serie (2008)" tvg-logo="POSTER" group-title="Películas" description="", Bolt: Un perro fuera de serie (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fqocoizagmikkfn2mcgpqi2mnwkh44c6luck6tngijkwl755esdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El camino hacia El Dorado (2000)" tvg-logo="POSTER" group-title="Películas" description="", El camino hacia El Dorado (2000)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohp2vehqikkfn2mbzpqj2jhapnnywoz5oyoenznsvptwcwtsdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Fantasía 2000 (1999)" tvg-logo="POSTER" group-title="Películas" description="", Fantasía 2000 (1999)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/gyod3vuzheikkfn2mbmpqia4mdwuoezqrjgohcqnv77db2sldsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La dama y el vagabundo (1955)" tvg-logo="POSTER" group-title="Películas" description="", La dama y el vagabundo (1955)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/gqod7w4zheikkfn2mbmpqzqkh3a4bzucgmajarg2peynqrsgqsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La dama y el vagabundo 2 (2001)" tvg-logo="POSTER" group-title="Películas" description="", La dama y el vagabundo 2 (2001)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/geodvmkcgmikkfn2mcapqjiqmlntcp4etpalo4ba2mgph5gghsdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="¡Scooby-Doo! y la máscara de Fabulman (2012)" tvg-logo="POSTER" group-title="Películas" description="", ¡Scooby-Doo! y la máscara de Fabulman (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4ohpwtshmikkfn2ma27qicoebyzbk72lr7h2hui2g7krs2mesdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Bee Movie (2007)" tvg-logo="POSTER" group-title="Películas" description="", Bee Movie (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohoqrahqikkfn2mb2pq3iwgaxmdn35crlklvwmvvlumv32gsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Ratatouille (2007)" tvg-logo="POSTER" group-title="Películas" description="", Ratatouille (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohp4qqeuikkfn2mae7qzi5h25bvfyqgivxhztdjj4ausgsgsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Spring Breakers (2012)" tvg-logo="POSTER" group-title="Películas" description="", Spring Breakers (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohplweneikkfn2map7yiq4ejf4raaccdcaq4bp52xqo54hfsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="G.I. Joe: El contraataque (2013)" tvg-logo="POSTER" group-title="Películas" description="", G.I. Joe: El contraataque (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocmfajheikkfn2mbj7qnqgg7zuyidvczous7eeh3edamukesdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Cloth (2012)" tvg-logo="POSTER" group-title="Películas" description="", The Cloth (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4ocynqln4ikkfn2mbi7ylijm5bdb4lut2tvws7tt7akvpqvpsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Misión Babilonia (2008)" tvg-logo="POSTER" group-title="Películas" description="", Misión Babilonia (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodtpjnhuikkfn2mbtpqnkmnrxm5xppntjdoih44nrlxct7zsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La noche de la expiación (2013)" tvg-logo="POSTER" group-title="Películas" description="", La noche de la expiación (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohpzdwgyikkfn2mcs7qiyhhyrkactneocbkofao4x3ya2jksdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El hombre duplicado (2013)" tvg-logo="POSTER" group-title="Películas" description="", El hombre duplicado (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4oho3mamaikkfn2mcp7ynkjhaphacg73junbq4yl5bvo5wclsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Luna de miel en familia (2014)" tvg-logo="POSTER" group-title="Películas" description="", Luna de miel en familia (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpwffeuikkfn2malpq3knhcpmim6ufvopof4twrkfnn33usdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="RoboCop (2014)" tvg-logo="POSTER" group-title="Películas" description="", RoboCop (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odzv7ikaikkfn2mdtp43izfwxzita5ny6ujcmsazk3vdympsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="300: El nacimiento de un imperio (2014)" tvg-logo="POSTER" group-title="Películas" description="", 300: El nacimiento de un imperio (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohp2d5euikkfn2magpqpqvhpf33k3wabodshizeu4uf6etksdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Non-Stop: Sin escalas (2014)" tvg-logo="POSTER" group-title="Películas" description="", Non-Stop: Sin escalas (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocmgdtnmikkfn2magpymkggilqi5v3agihrtyarizrmpqn4sdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Un novato en apuros (2014)" tvg-logo="POSTER" group-title="Películas" description="", Un novato en apuros (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4ocz5zfh4ikkfn2mb57qyqyggjvbhalkok22oztsp2eszurnsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Comando especial 2 (2014)" tvg-logo="POSTER" group-title="Películas" description="", Comando especial 2 (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohppj5huikkfn2mbq7qiaqeqcbet4hca6j2ajt73phtac4wsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Pueblo chico, pistola grande (2014)" tvg-logo="POSTER" group-title="Películas" description="", Pueblo chico, pistola grande (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohpxxleeikkfn2mda76m2mmlbhyxhauk6bvkxrr5pwzratmsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Teen Beach Movie (2013)" tvg-logo="POSTER" group-title="Películas" description="", Teen Beach Movie (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4ohowkmg4ikkfn2mdfpqnkhhkiqesgph7ldikikhqudclwngdba4m3spq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Transformers: La era de la extinción (2014)" tvg-logo="POSTER" group-title="Películas" description="", Transformers: La era de la extinción (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqoho6vteyikkfn2md7p6lqimqqcxbxnvmyedomkdrhsz6ophsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Upside Down (2012)" tvg-logo="POSTER" group-title="Películas" description="", Upside Down (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/gqod6rwlmmikkfn2mbtpyoqkmoztycerpprqw33jgsade3wdasdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El planeta de los simios: Confrontación (2014)" tvg-logo="POSTER" group-title="Películas" description="", El planeta de los simios: Confrontación (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4ohou6reyikkfn2mdz76y2ngve6jnvqml7nlnzokoybfr5pksdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Sangre, sudor y gloria (2013)" tvg-logo="POSTER" group-title="Películas" description="", Sangre, sudor y gloria (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohpdjfh4ikkfn2mb57qlcmms33nb5hzkiubnzys3ooqljeusdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Iron Man 3 (2013)" tvg-logo="POSTER" group-title="Películas" description="", Iron Man 3 (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohpt2nkqikkfn2mar76icoglttkb3bko5asd6lax2cge6sksdwcqsba4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Company You Keep (2012)" tvg-logo="POSTER" group-title="Películas" description="", The Company You Keep (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/euoc4kyhgmikkfn2mcg7qyyren47m4pmqfoiexdk5ganvagwlsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Star Trek: En la oscuridad (2013)" tvg-logo="POSTER" group-title="Películas" description="", Star Trek: En la oscuridad (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohoqw4euikkfn2maf7qjckmsvvajqdubzt3hihh353iisoc6snztc32y/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Los ilusionistas: Nada es lo que parece (2013)" tvg-logo="POSTER" group-title="Películas" description="", Los ilusionistas: Nada es lo que parece (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohpd2zgmikkfn2mcapqoqhgyz6vspminshx7ohzjbxg3etksdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Jonah Hex (2010)" tvg-logo="POSTER" group-title="Películas" description="", Jonah Hex (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juoho4o4gyikkfn2mcq7qoi2m6i6k7e3jwrezgrl7qbgw7jiysdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Un lugar secreto (2013)" tvg-logo="POSTER" group-title="Películas" description="", Un lugar secreto (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohonyjeuikkfn2mah7q3iumt7237ndxb22t2wwn7uakwbtssdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Watchmen (2009)" tvg-logo="POSTER" group-title="Películas" description="", Watchmen (2009)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s76-91-48-193.spcdn.cc/h75bmzcbzlekalhulnltypwnavkg3ectlr5z5gnnzuwistrg7tssdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Kick-Ass: un superhéroe sin superpoderes (2010)" tvg-logo="POSTER" group-title="Películas" description="", Kick-Ass: un superhéroe sin superpoderes (2010)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s7294-109-109.spcdn.cc/h75bg4khy7ekalhulmtd246pbq3kb4v7yimumbl4tbabm5zzcdksdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Los indestructibles 3 (2014)" tvg-logo="POSTER" group-title="Películas" description="", Los indestructibles 3 (2014)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s76-91-48-193.spcdn.cc/h75bpcblg3e2alhulpgd27mxax5ttubf7jnh625wgkxri3cmgegsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Proyecto X (2012)" tvg-logo="POSTER" group-title="Películas" description="", Proyecto X (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/euoc4mwdhuikkfn2mbqpqy2le4oj6q7hz5avs2snanugpqydpsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Nosotros los Nobles (2013)" tvg-logo="POSTER" group-title="Películas" description="", Nosotros los Nobles (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3591-48-222.cdnpvd.co/lyohpynuniikkfn2manpyma5gnzuhddyrpumpxvwh3ddfpln6sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El Hobbit: Un viaje inesperado (2012)" tvg-logo="POSTER" group-title="Películas" description="", El Hobbit: Un viaje inesperado (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4oho65lgiikkfn2mbt7qyazgn44lucm5px56zzsalgtwer2isdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Harry Potter y las reliquias de la muerte (parte 2) (2011)" tvg-logo="POSTER" group-title="Películas" description="", Harry Potter y las reliquias de la muerte (parte 2) (2011)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s8091-48-224.spcdn.cc/h75aq6hvrhekalhulmwdsowijtcxaz6rktgrubomvxsh3byz4yqsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Ted (2012)" tvg-logo="POSTER" group-title="Películas" description="", Ted (2012)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s8091-48-224.spcdn.cc/h75axu4oyhekalhuloptyjwedove7ka3nrqlhzkxhhuv6r4kgktsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Crepúsculo, la saga: Amanecer (parte 2) (2012)" tvg-logo="POSTER" group-title="Películas" description="", Crepúsculo, la saga: Amanecer (parte 2) (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohodvteyikkfn2mcs74nqlh7rscz62aghfkcvsbjccou273kb3g4zkxy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El Sorprendente Hombre-Araña (2012)" tvg-logo="POSTER" group-title="Películas" description="", El Sorprendente Hombre-Araña (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laoho7cugqikkfn2ma576nipe43qmx7wua7rxz4llftkrv4vzsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Gravity (2013)" tvg-logo="POSTER" group-title="Películas" description="", Gravity (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohoazxneikkfn2maopyoaznreekh6u25elvf2wz4fxr4admsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Los indestructibles 2 (2012)" tvg-logo="POSTER" group-title="Películas" description="", Los indestructibles 2 (2012)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s76-91-48-193.spcdn.cc/h75bpcrlg3e2alhulpgd26ood2d5jawkjkvvtgt6qkobmc6hbz2sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Harry Potter y las reliquias de la muerte (parte 1) (2010)" tvg-logo="POSTER" group-title="Películas" description="", Harry Potter y las reliquias de la muerte (parte 1) (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4oho5n3niikkfn2manpypy2frjdgwjbck4xgytsmgxs5abvasdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El juego de Ender (2013)" tvg-logo="POSTER" group-title="Películas" description="", El juego de Ender (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-45165-48-68.cdnpvd.co/kaohowomneikkfn2mao7ymijg63vzl4hx2nnhktcrcfq7itazsdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Blancanieves y el Cazador (2012)" tvg-logo="POSTER" group-title="Películas" description="", Blancanieves y el Cazador (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4ocz6nwniikkfn2manpynkjebqz4xliuabjek27oybpr5nv7sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Notas Perfectas (2012)" tvg-logo="POSTER" group-title="Películas" description="", Notas Perfectas (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyoclb25euikkfn2mag7qyslego27rbxxgikmjy4g3wstzea5sdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El dictador (2012)" tvg-logo="POSTER" group-title="Películas" description="", El dictador (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodsbzthaikkfn2mar7qpiifxdd73jwuqfr3amt2llitfv5usdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="¿Y dónde está el fantasma? (2013)" tvg-logo="POSTER" group-title="Películas" description="", ¿Y dónde está el fantasma? (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohoyw6niikkfn2map7ylqimbyb2t4tx6bcwpykq5nes273psdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Este es el fin (2013)" tvg-logo="POSTER" group-title="Películas" description="", Este es el fin (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/gyod3yvjhaikkfn2maxpqjyshd76anchfmkebl4lmy3lhse5isdwcqsba4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Comando especial (2012)" tvg-logo="POSTER" group-title="Películas" description="", Comando especial (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohppz5huikkfn2mbq7qyi5gd67jhia2qqt3n6cymmqianphbx53zjm4a/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Cuestión de tiempo (2013)" tvg-logo="POSTER" group-title="Películas" description="", Cuestión de tiempo (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpoonneikkfn2map7yla4g3zfbkbiarpvpgq2muyfiwfrjrrwffo5ei/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Duro de Matar: Un Buen Día para Morir (2013)" tvg-logo="POSTER" group-title="Películas" description="", Duro de Matar: Un Buen Día para Morir (2013)
+http://216.244.244.252:49412/md/get.php?url=https://cloud-s76-91-48-193.spcdn.cc/h75bjv3xhhe2alhulmgt26oicpgzdkatdv5mcx2we2m5kn67tmvqggdkrffq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Crepúsculo (2008)" tvg-logo="POSTER" group-title="Películas" description="", Crepúsculo (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laoho4vteyikkfn2mcs74yqfntgqob7dfcwj2dmafwiac4z3tf2usrvi6m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Iron Man (2008)" tvg-logo="POSTER" group-title="Películas" description="", Iron Man (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohozckkqikkfn2mar76ji5mo7bvghbgjsadkgh2a4khrrzkudfxrdwfu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Iron Man 2 (2010)" tvg-logo="POSTER" group-title="Películas" description="", Iron Man 2 (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohpn2okqikkfn2mar76oy5en6xrmzfh47gp6dh4w2q2flfb4c4asy5cu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Alien, el octavo pasajero (1979)" tvg-logo="POSTER" group-title="Películas" description="", Alien, el octavo pasajero (1979)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohp4tvguikkfn2md67qjcpm7ebbtialxnd2j6j3x5rauv5tvpppp3m2m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Alien 2: El regreso (1986)" tvg-logo="POSTER" group-title="Películas" description="", Alien 2: El regreso (1986)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohp4dvguikkfn2md67qlqzhczxl7ni5tiidk2i5la23j2wfjfpb3ft3y/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Alien 3 (1992)" tvg-logo="POSTER" group-title="Películas" description="", Alien 3 (1992)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohpztvguikkfn2md67qjsons3v7y2lwpdrx33socndci4lqguxvkmoam/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Alien: La resurrección (1997)" tvg-logo="POSTER" group-title="Películas" description="", Alien: La resurrección (1997)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohp4nleuikkfn2malpqyykmboalefjojq7uk3k75vrrnfn53yjmk2fpy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Hellboy (2004)" tvg-logo="POSTER" group-title="Películas" description="", Hellboy (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohpoqogaikkfn2mc77qpykmv42oedvfrx4egq3bu3ccxagvn34tf2lfy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="007 Quantum (2008)" tvg-logo="POSTER" group-title="Películas" description="", 007 Quantum (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4491-212-99.cdnpvd.co/keohorz4eeikkfn2mdcp6lkned3oys65dgb34bnzotxghy7ai3ahljp6r4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="007: Casino Royale (2006)" tvg-logo="POSTER" group-title="Películas" description="", 007: Casino Royale (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4338-55-56.cdnpvd.co/kyohocj5eeikkfn2mdcp6mkjm7sxawrdmshgazwcdwje24shplzpcvwwzm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="R.I.P.D. Policía del más allá (2013)" tvg-logo="POSTER" group-title="Películas" description="", R.I.P.D. Policía del más allá (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odz5bfh4ikkfn2mb57qiyyhbjxhso33qsslmmh25rim6ztzmz4a2jk7q/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Rápidos y furiosos 6 (2013)" tvg-logo="POSTER" group-title="Películas" description="", Rápidos y furiosos 6 (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giods627eeikkfn2mcrp4zinesyft7g5eqaldsry2tt6bzp6fq4aemnj5m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Guerra mundial Z (2013)" tvg-logo="POSTER" group-title="Películas" description="", Guerra mundial Z (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohono4euikkfn2maf7qzsgmise5vjdtqmxc6p5yk4gjadjqvkkdg65rm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Distrito 13: Ultimátum (2009)" tvg-logo="POSTER" group-title="Películas" description="", Distrito 13: Ultimátum (2009)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyocl6k7gmikkfn2mcapqni3ekhi3idtaukjjxzmnoyskkn5wbw4nsmqsu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Gladiador (2000)" tvg-logo="POSTER" group-title="Películas" description="", Gladiador (2000)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4ohonireuikkfn2mae7qlatmcctz2tczn2gjxkjjhi5pycjzuwvai3xsq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Dulce Venganza 2 (2013)" tvg-logo="POSTER" group-title="Películas" description="", Dulce Venganza 2 (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eqoc67aogaikkfn2mc77q3iughy3vm64gonjny3ngywy2np47aalfb5v6m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Criaturas de la noche (2000)" tvg-logo="POSTER" group-title="Películas" description="", Criaturas de la noche (2000)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpz7zeuikkfn2mak7qmynh2trcycsa6urskgyhpt22m2bvigknfoufq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Las crónicas de Riddick (2004)" tvg-logo="POSTER" group-title="Películas" description="", Las crónicas de Riddick (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpy25euikkfn2mag7qiyrgvqpepnx2jvhelmlitmjhplv2xau5hygjm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Origen (2010)" tvg-logo="POSTER" group-title="Películas" description="", Origen (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohobtzgiikkfn2mci7qzqhgnmbwz6mh62dej3l5iummp7smh4mecz5iq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Pequeñas mentiras sin importancia (2010)" tvg-logo="POSTER" group-title="Películas" description="", Pequeñas mentiras sin importancia (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/guod4plshuikkfn2mbt7qzcihhgp5mkvyl7qbjbsoaxlb5f7fihxn5kyg4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Transporter 2 (2005)" tvg-logo="POSTER" group-title="Películas" description="", Transporter 2 (2005)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eqoc7heihaikkfn2mdsp4zclhx56zhdn5kcudn35u3fq74kj4mgbjpsaei/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Transporter (2002)" tvg-logo="POSTER" group-title="Películas" description="", Transporter (2002)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gaodxh4ihaikkfn2mdsp4nyzmhiirl27rbbc2cc3fosj262nbmpvadpvki/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Transporter 3 (2008)" tvg-logo="POSTER" group-title="Películas" description="", Transporter 3 (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/f4ocjfmihaikkfn2mdsp4mq3m5erq6nvu2nvc5brqpa5odviejctf4ch3e/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Sex Tape (2014)" tvg-logo="POSTER" group-title="Películas" description="", Sex Tape (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodtg35euikkfn2magpqiqumimy4ayhaofkq4lt7o6gec2csor5daeblu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Resident Evil (2002)" tvg-logo="POSTER" group-title="Películas" description="", Resident Evil (2002)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohoh27eeikkfn2md476osoevemfhgzxu77uw72x2kduzxe3vlhand7qy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Resident Evil 2: Apocalipsis (2004)" tvg-logo="POSTER" group-title="Películas" description="", Resident Evil 2: Apocalipsis (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohofs7eeikkfn2md476oyym3tjy5adnfezw6mpdfiil3logjp6x5g3f4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Resident Evil 3: Extinción (2007)" tvg-logo="POSTER" group-title="Películas" description="", Resident Evil 3: Extinción (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohoks7eeikkfn2md4763ihmr5z7fa6wd2l6a6gep7g3qinmdv4impf7i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Resident Evil 4: Ultratumba (2010)" tvg-logo="POSTER" group-title="Películas" description="", Resident Evil 4: Ultratumba (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-45165-48-68.cdnpvd.co/kaohoek7eeikkfn2md476piphx6udkid3zm3elacnyqscvajdii6ksd34i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Resident Evil 5: Venganza (2012)" tvg-logo="POSTER" group-title="Películas" description="", Resident Evil 5: Venganza (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohokc7eeikkfn2md476ya6mgwnxzqatz5evao5e76ejwsbicvwydql7q/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="¿Que paso ayer 3? (2013)" tvg-logo="POSTER" group-title="Películas" description="", ¿Que paso ayer 3? (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohopo2huikkfn2mbr7qm2kgp5ng7xi3f5xy6hyjtqma3w2hbhr6cs42y/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Día de entrenamiento (2001)" tvg-logo="POSTER" group-title="Películas" description="", Día de entrenamiento (2001)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqoho2egneikkfn2manpyoqnnu7zhxalll3o4bgcf5pmt23dp4cuahpmyq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Diamante de sangre (2006)" tvg-logo="POSTER" group-title="Películas" description="", Diamante de sangre (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/euoc43zleqikkfn2maopqyyrhdrrtftckhevtgpdll54m62xvx2ho2gssa/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Saw II (2005)" tvg-logo="POSTER" group-title="Películas" description="", Saw II (2005)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohpn7reyikkfn2md676oyyehgfjuambtfofm2d3o5an22injub3qghua/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Saw III (2006)" tvg-logo="POSTER" group-title="Películas" description="", Saw III (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4ohpnpreyikkfn2md676yiygbpwimyznda5loredlqwl2jbfcmzvrz3fe/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Saw IV (2007)" tvg-logo="POSTER" group-title="Películas" description="", Saw IV (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4ocythreyikkfn2md676j2kma6p5ri7zsywtdjrrj5ttasuz4yp7mycly/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Saw V (2008)" tvg-logo="POSTER" group-title="Películas" description="", Saw V (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4338-55-56.cdnpvd.co/kyohoxhreyikkfn2md676mylgo7jejsx6xjncnip252ml5q3s6y7ksnqqm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Saw VII (2010)" tvg-logo="POSTER" group-title="Películas" description="", Saw VII (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3591-48-222.cdnpvd.co/lyohor7reyikkfn2md676lsomsfxp25pbm2reilz2gazthfwttzpokc5le/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Gremlins (1984)" tvg-logo="POSTER" group-title="Películas" description="", Gremlins (1984)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodtvuxeyikkfn2md776nypfyxbzak6axfthstu27b7oiqc6ed43a4pay/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Gremlins 2: La nueva generación (1990)" tvg-logo="POSTER" group-title="Películas" description="", Gremlins 2: La nueva generación (1990)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gaodx2uxeyikkfn2md776ysmntztrjniy6vfakgx473ijkvwbclinh65si/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La visita del rey (2012)" tvg-logo="POSTER" group-title="Películas" description="", La visita del rey (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodtzicg4ikkfn2mdlpq3apmaptfmjnvczsfalehlp6hwj46rr5z7n2v4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Insidious (2010)" tvg-logo="POSTER" group-title="Películas" description="", Insidious (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4491-212-99.cdnpvd.co/keohog5cgyikkfn2mcwpqzytekldvzib5nzz7ytaqn7ritv34u5vpc22py/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El curioso caso de Benjamin Button (2008)" tvg-logo="POSTER" group-title="Películas" description="", El curioso caso de Benjamin Button (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4ohp6jkeqikkfn2maopqiclhev364sjievzu7whlizh7gpce6itnbrlja/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El exorcista (1973)" tvg-logo="POSTER" group-title="Películas" description="", El exorcista (1973)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohoymoeyikkfn2md676nsmeo43fku2njj7zdovbbr2usqok52awdk3gi/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La maldición de Chucky (2013)" tvg-logo="POSTER" group-title="Películas" description="", La maldición de Chucky (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocnwach4ikkfn2mb47qyahetdrhmxajkg4if5gxczt6xym6bvh35znvq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Invasión a la Tierra (2011)" tvg-logo="POSTER" group-title="Películas" description="", Invasión a la Tierra (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4ohpnmagiikkfn2mcppqycnfuyhutp5upoqr252dxcnb5gdkzfngs4gqa/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La vida es bella (1997)" tvg-logo="POSTER" group-title="Películas" description="", La vida es bella (1997)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohoumgneikkfn2manpyjasej57ldgd5gsykhnjk2jvu5nsoez2imdwmy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Shooter: El tirador (2007)" tvg-logo="POSTER" group-title="Películas" description="", Shooter: El tirador (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4338-55-56.cdnpvd.co/kyohpm64euikkfn2maf7qjsgmpa7af77higsb4ynvtzohox5skmiplvwkm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Star Trek (2009)" tvg-logo="POSTER" group-title="Películas" description="", Star Trek (2009)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohpzs5euikkfn2mag7qpivedsn5cuhgr6dveahqbjfslbvl7fo4yb2y4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Pacific Rim (2013)" tvg-logo="POSTER" group-title="Películas" description="", Pacific Rim (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohpkweneikkfn2manpyjknhts3wibaolzhhhdssj237pbxzyqnymgl2q/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Atrápame si puedes (2002)" tvg-logo="POSTER" group-title="Películas" description="", Atrápame si puedes (2002)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohpmaqeuikkfn2mae7qyqlfwthzmk25wwnpviusxy4vx3xudu24pfobq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El mercader de Venecia (2004)" tvg-logo="POSTER" group-title="Películas" description="", El mercader de Venecia (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/geodvk35euikkfn2magpqiifhdeo52wo5ko4xju35vmv7ycunvznbynzay/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Hostel (2006)" tvg-logo="POSTER" group-title="Películas" description="", Hostel (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4oczxaqeuikkfn2mae7qm2gevi6ah3ccd6mznzzplaywhswxpb5d26ejq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Hostel 2 (2007)" tvg-logo="POSTER" group-title="Películas" description="", Hostel 2 (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohpuyqeuikkfn2mae7qzaifzweszgvqk2aloaqxqx6pfw27l4m56sqcu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Hostel 3 (2011)" tvg-logo="POSTER" group-title="Películas" description="", Hostel 3 (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eqoc6y62gmikkfn2mce7qyqxmu2d6dlnocjagwovqnkcqq2qa4ag7onwlq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El bueno, el feo y el malo (1966)" tvg-logo="POSTER" group-title="Películas" description="", El bueno, el feo y el malo (1966)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohpxfkeyikkfn2md7763ivhavdlyxj5mdb7ncarsua55vtz32znvua7m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Capitán América: El primer vengador (2011)" tvg-logo="POSTER" group-title="Películas" description="", Capitán América: El primer vengador (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4oho3sikqikkfn2mar76oivhvtebhu7npiwntjtx5kzmz4nwfsurf5u7a/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El llanero solitario (2013)" tvg-logo="POSTER" group-title="Películas" description="", El llanero solitario (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocmi3sgiikkfn2mci7q3inejkmdkkpvpuatwqqsgiwj67bnuge7vzyva/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Titan A.E. (2000)" tvg-logo="POSTER" group-title="Películas" description="", Titan A.E. (2000)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodsbpfhqikkfn2mby7qmcknsstotielrgtgmhstvqctwz3ewpkd63qmy/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Mad Max: Salvajes de autopista (1979)" tvg-logo="POSTER" group-title="Películas" description="", Mad Max: Salvajes de autopista (1979)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gmodrynkeyikkfn2md776nyqglvwo5jhbgmw2p7ohhuimxfyuibkm6xluq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Mad Max 2: El guerrero de la carretera (1981)" tvg-logo="POSTER" group-title="Películas" description="", Mad Max 2: El guerrero de la carretera (1981)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4oczz5keyikkfn2md7763anhvnjvd4vvermcn2cyz2j2n6soqkp3rqhri/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Mad Max 3: Más allá de la cúpula del trueno (1985)" tvg-logo="POSTER" group-title="Películas" description="", Mad Max 3: Más allá de la cúpula del trueno (1985)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odz65keyikkfn2md776iq4fvmpgpvc6xgypibhxyly6btmap7gcyklpi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Toy Story (1995)" tvg-logo="POSTER" group-title="Películas" description="", Toy Story (1995)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuoho3vteyikkfn2md7p6pa2fygiqzsmudnphscz2i3dabozvg6styg4ai/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Toy Story 2 (1999)" tvg-logo="POSTER" group-title="Películas" description="", Toy Story 2 (1999)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4oho3nteyikkfn2md7p6yqyh7po75agkuwvkkac4upggn7pguil2qs25m/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Toy Story 3 (2010)" tvg-logo="POSTER" group-title="Películas" description="", Toy Story 3 (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohoy5teyikkfn2md7p6yitmxidfwmo6mizopue35zkked4kp7h6g7zg4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Ace Ventura: Un detective diferente (1994)" tvg-logo="POSTER" group-title="Películas" description="", Ace Ventura: Un detective diferente (1994)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohodvgniikkfn2man7yji4fskl6jnoo5g32ylfukgppjp4dirv53qqxu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Ace Ventura: Operación África (1995)" tvg-logo="POSTER" group-title="Películas" description="", Ace Ventura: Operación África (1995)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyoclaz3hyikkfn2mbe7qmafehtlz6ebutornu5ftwnjmiv237pas3cfv4/v.mp4
+
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Cementerio viviente (1989)" tvg-logo="POSTER" group-title="Películas" description="", Cementerio viviente (1989)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/gqod7zdfhyikkfn2mbg7qjytecmj6e4zjkniv4w73iuesoxhsuielg6w34/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Muerte en Tombstone (2013)" tvg-logo="POSTER" group-title="Películas" description="", Muerte en Tombstone (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/guod5q5kniikkfn2man7yzqwh2lnodqb6wzcbukefliq6bugcbecywsg5i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Gru 2. Mi villano favorito (2013)" tvg-logo="POSTER" group-title="Películas" description="", Gru 2. Mi villano favorito (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohozo6gmikkfn2mchpqpavelj7h5iwjy3hkptxfpcy3yofqd63k4e44m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Tiburón (1975)" tvg-logo="POSTER" group-title="Películas" description="", Tiburón (1975)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/f4ocjlbleyikkfn2mdy763i4mxfzn2s6st3o4crsh564nhm6y2hhytq5qi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Posesión infernal (Evil Dead) (2013)" tvg-logo="POSTER" group-title="Películas" description="", Posesión infernal (Evil Dead) (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohoydueyikkfn2md2p6jy4genj2c6hn46foqg4omsfedoohtg2dmtyaa/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Una noche en el museo (2006)" tvg-logo="POSTER" group-title="Películas" description="", Una noche en el museo (2006)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpjz2eeikkfn2mdcp6j2lh543a3xytxmj6njzj6vwu2kvpvfo5e2uri/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Noche en el museo 2 (2009)" tvg-logo="POSTER" group-title="Películas" description="", Noche en el museo 2 (2009)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gaodxoj2eeikkfn2mdcp6jytm37lg7w4gihwtdvxkhfqz3uf6fkrrsnf4i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El último samurái (2003)" tvg-logo="POSTER" group-title="Películas" description="", El último samurái (2003)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4291-31-166.cdnpvd.co/k4oho36shuikkfn2mbr7qyazh5yyhsy2b6zhm5pzk2xlpnfmbpaebfhezy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="6 Balas (2012)" tvg-logo="POSTER" group-title="Películas" description="", 6 Balas (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eqoc77b4eqikkfn2map7qnitewdtu7qpm6wuwoij2oxz7jp6jre24hhlxi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Driven (2001)" tvg-logo="POSTER" group-title="Películas" description="", Driven (2001)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gmodqya6gaikkfn2mc7pqmkphcvdqyhzhwa2wk7iljiephzzumcqwcye7m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Turbo (2013)" tvg-logo="POSTER" group-title="Películas" description="", Turbo (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gmodr5sihaikkfn2mas7qyyqeufy7vk6o5wb5lupxudfvk22hnjlsxdyhq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Karate Kid (2010)" tvg-logo="POSTER" group-title="Películas" description="", The Karate Kid (2010)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohpefiniikkfn2man7yzyjh3nbixzchuph5driolsi27qep2j424bo5y/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Acero puro (2011)" tvg-logo="POSTER" group-title="Películas" description="", Acero puro (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohpab4eqikkfn2map7qz2lmmh2hzfzlikxge4kihffzri76z6ao7ew3a/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="10,000 A.C. (2008)" tvg-logo="POSTER" group-title="Películas" description="", 10,000 A.C. (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4891-212-105.cdnpvd.co/juohpmfiniikkfn2man7yjqwgkwkx3dwjmo5dhtx5wbotqeipkfgvszgym/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Por encima de la ley (1988)" tvg-logo="POSTER" group-title="Películas" description="", Por encima de la ley (1988)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuoho75iniikkfn2man7yzy6eeus6gcyicbftuyfkd26ror63wzzfnwrry/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Superagente 86 (2008)" tvg-logo="POSTER" group-title="Películas" description="", Superagente 86 (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odzxkihaikkfn2mas7qyawevioz3tp7rkex72ldxzmwa2eic7w2oodey/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Los elegidos (2013)" tvg-logo="POSTER" group-title="Películas" description="", Los elegidos (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eyoc3no5euikkfn2maf7qiafmv6fjznlln47soq2v3fiv7psjtjn7jpzwm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Casi perfecta (2012)" tvg-logo="POSTER" group-title="Películas" description="", Casi perfecta (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fyocl3ycg4ikkfn2mdlpqnknezxdbejqyhu3qomrokisxoln2nirbpg44u/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El origen de los guardianes (2012)" tvg-logo="POSTER" group-title="Películas" description="", El origen de los guardianes (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohol5mniikkfn2man7ylcihm672mlzslt3eqz3yho3gj7idq6s5dxica/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="2 Guns (2013)" tvg-logo="POSTER" group-title="Películas" description="", 2 Guns (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/f4ociubfh4ikkfn2mb57qoq6fs46wioj2dowhebjz4qh5uqgmrgvbcvtvi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Guerra de flechas (2011)" tvg-logo="POSTER" group-title="Películas" description="", Guerra de flechas (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohpw4tniikkfn2man7ylivhe2pnpagqi7sf6rs7f4cjami5w3lpmxmwq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Jeepers Creepers (2001)" tvg-logo="POSTER" group-title="Películas" description="", Jeepers Creepers (2001)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4ocyu3shyikkfn2mbe7qpizfzurirktrnkliiyhxtztoicxz3zsv7hfri/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El sicario de Dios (2011)" tvg-logo="POSTER" group-title="Películas" description="", El sicario de Dios (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohodsugqikkfn2mda7qyijm76ddphyipfkxdgrxljxy5qpt45jh6uuwi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="King Kong (2005)" tvg-logo="POSTER" group-title="Películas" description="", King Kong (2005)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/euoc4vykh4ikkfn2mb47qzi6nqa7xo2qjmb6yutqveupvdxgkxxhfogdca/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Doom (2005)" tvg-logo="POSTER" group-title="Películas" description="", Doom (2005)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fqocovtshyikkfn2mbe7qmy3meh2o7uqfdrzqvaxrmd6brctij4esecwja/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Amanecer de los muertos (2004)" tvg-logo="POSTER" group-title="Películas" description="", Amanecer de los muertos (2004)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4338-55-56.cdnpvd.co/kyohpqvggqikkfn2mdf7qjylgxyrselwzkswrauouvvgqr4ijyfaesyeba/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La Mascara (1994)" tvg-logo="POSTER" group-title="Películas" description="", La Mascara (1994)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohpt6zhuikkfn2mbr7qnskho3ba2buhlv5yi6kbugkxjrwb75v4mf7j4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La máscara 2 (2005)" tvg-logo="POSTER" group-title="Películas" description="", La máscara 2 (2005)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocm6e5haikkfn2max7qpysfxngxtlult3i6kwsheycv6mhozqavpjiba/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La guerra de los mundos (2005)" tvg-logo="POSTER" group-title="Películas" description="", La guerra de los mundos (2005)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3791-48-223.cdnpvd.co/laohpiaqeuikkfn2mae7qlivmfa7pc6watcbsnupn65mkwjvjhpejnqez4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Truco o trato: Terror en Halloween (2007)" tvg-logo="POSTER" group-title="Películas" description="", Truco o trato: Terror en Halloween (2007)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqoho7ewniikkfn2man7ymkmheuwe7bxxmrw6tk4f5kxbnpu4fnnptjiqq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Conjuring (2013)" tvg-logo="POSTER" group-title="Películas" description="", The Conjuring (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohoninhyikkfn2mbgpqlcph64ks4k5n7onkmz24tzywndnihk762dt6u/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Aviones (2013)" tvg-logo="POSTER" group-title="Películas" description="", Aviones (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fqocoju2heikkfn2mbmpqpkmghrxzzbyvuvuqavzvxdojhcj5xmxehd23i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Thor (2011)" tvg-logo="POSTER" group-title="Películas" description="", Thor (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3991-48-215.cdnpvd.co/liohonk7gmikkfn2mcb7qoakgfwuv3zohjqhtf5kplf5av26ahmivjys44/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La lista de tareas pendientes (2013)" tvg-logo="POSTER" group-title="Películas" description="", La lista de tareas pendientes (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3891-64-63.cdnpvd.co/lmohp7e2niikkfn2mampymkohhba2mruqur64uibvyoy2l3svwvhxnel6a/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Last Days on Mars (2013)" tvg-logo="POSTER" group-title="Películas" description="", The Last Days on Mars (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4091-31-168.cdnpvd.co/kuohpgs6g4ikkfn2mdk7qy2km3q2rmwmzajxp5yqb5jtaw3tmsjgewqsvi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Barbie y sus hermanas en una aventura de caballos (2013)" tvg-logo="POSTER" group-title="Películas" description="", Barbie y sus hermanas en una aventura de caballos (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3591-48-222.cdnpvd.co/lyohpbkog4ikkfn2mdk7qmsohzil74fzcupwtg56mrmvmy23xw6tumddsu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Moneyball: Rompiendo las reglas (2011)" tvg-logo="POSTER" group-title="Películas" description="", Moneyball: Rompiendo las reglas (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocnsckgyikkfn2mdmpqjcoe2bhnpz24fw4mkp5il5fdmodzsh2kfbgae/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El día que la tierra se detuvo (2008)" tvg-logo="POSTER" group-title="Películas" description="", El día que la tierra se detuvo (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohoccyguikkfn2mdz7qiiwhjnwgcrssaoeyibp6sl25tv3lbm7oaxe4i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Australia (2008)" tvg-logo="POSTER" group-title="Películas" description="", Australia (2008)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4991-212-110.cdnpvd.co/jqohobkugqikkfn2mda7qzi6e6upqkzm72qhzn7ivpr2luvq72dkqvrgfa/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El Caballero Oscuro: La Leyenda Renace (2012)" tvg-logo="POSTER" group-title="Películas" description="", El Caballero Oscuro: La Leyenda Renace (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3591-48-222.cdnpvd.co/lyohoi6ypiikkfn2mdg7yzymgpz7crzznpftjqi5elwubo2xmgtdd7ug4m/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Syrup (2013)" tvg-logo="POSTER" group-title="Películas" description="", Syrup (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-47178-64-178.cdnpvd.co/kiohopezniikkfn2mampyiaqg26ebobmer2uy4vfbx7lytgr47hmyfv37u/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El pianista (2002)" tvg-logo="POSTER" group-title="Películas" description="", El pianista (2002)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4oho45xh4ikkfn2mbapqnysglfj32ictxl272ksfsbhinxk3hc65bcfbq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Aladdín (1992)" tvg-logo="POSTER" group-title="Películas" description="", Aladdín (1992)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4ohpmi5eeikkfn2mdc76pazgbdz2phg5zkldowm76lhobkswujvquc6je/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El retorno de Jafar (1994)" tvg-logo="POSTER" group-title="Películas" description="", El retorno de Jafar (1994)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fuocmlgkgaikkfn2mc57qiqtei2jtp6uwl6ftux5vvhtnchrknufhmo53u/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Aladdín y el rey de los ladrones (1996)" tvg-logo="POSTER" group-title="Películas" description="", Aladdín y el rey de los ladrones (1996)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/f4ocjccshaikkfn2maspqjcmntfnxy4nkyebgsu6sqbo35vb723uyfwzpa/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Anarchy: La noche de las bestias (2014)" tvg-logo="POSTER" group-title="Películas" description="", Anarchy: La noche de las bestias (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4oczrlwgyikkfn2mcs7qya5ertn5tyrw6s7wkbbrh37bsfguxecxjpe2i/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Amazing Spider-Man 2: El poder de Electro (2014)" tvg-logo="POSTER" group-title="Películas" description="", The Amazing Spider-Man 2: El poder de Electro (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohpvvmk4ikkfn2ma576pategx67bo2tq5cc45p32qyz2uuznxtz7fl2q/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Libranos del mal (2014)" tvg-logo="POSTER" group-title="Películas" description="", Libranos del mal (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/gaodwovnhuikkfn2mbx7qoyhm7r6rqwm2inqnmxjucc7n2r6x6rtfxskue/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="New world (2013)" tvg-logo="POSTER" group-title="Películas" description="", New world (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohp5upguikkfn2md5pqjshfvqhjmwewvhqafemsz4kjbuxaz3nondk24/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="No hay dos sin tres (2014)" tvg-logo="POSTER" group-title="Películas" description="", No hay dos sin tres (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/eyoc3j4gneikkfn2ma6pyzalfssn54ka4pzttbqjmepzpaqqqd3okeo4fy/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Un mar de líos (1987)" tvg-logo="POSTER" group-title="Películas" description="", Un mar de líos (1987)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7236-107-113.cdnpvd.co/g4odzs2yeeikkfn2md476yahmgsilaiugidfdzoajdy4h26hesbi7ws4uu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Más allá del amor (2014)" tvg-logo="POSTER" group-title="Películas" description="", Más allá del amor (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fqocpxkohyikkfn2mbb7qisnmv7spoggg6tjxutaplznjoykay3cqjuzt4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Godzilla (2014)" tvg-logo="POSTER" group-title="Películas" description="", Godzilla (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-5091-212-113.cdnpvd.co/j4ohppctguikkfn2mdzpqicnmrup62kbvvcsssprrbqxa27wwmicddfcfe/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="La LEGO película (2014)" tvg-logo="POSTER" group-title="Películas" description="", La LEGO película (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8836-107-123.cdnpvd.co/e4ocyge5haikkfn2max7qzazmkwb2xlveqajdtzne3u4pjsquk2it7xwwm/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="X-Men: Días del Futuro Pasado (2014)" tvg-logo="POSTER" group-title="Películas" description="", X-Men: Días del Futuro Pasado (2014)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohoonteyikkfn2md7p6nsmgmhkwq3jc6f74w7vxwuungub4xpqub7vy4/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Resident Evil: La maldición (2012)" tvg-logo="POSTER" group-title="Películas" description="", Resident Evil: La maldición (2012)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4191-31-165.cdnpvd.co/kqohofk7eeikkfn2md476mqkhlsluzewgveb2eqcerjd5jc3xsrz23tz6q/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Sucker Punch (2011)" tvg-logo="POSTER" group-title="Películas" description="", Sucker Punch (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/fqococqghyikkfn2mbgpqn2gmg6enitndgnhced2mkhpn7aq5uhhcorjqi/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Las aventuras de Pluto Nash (2002)" tvg-logo="POSTER" group-title="Películas" description="", Las aventuras de Pluto Nash (2002)
+http://216.244.244.252:49412/md/get.php?url=https://stream-7636-107-114.cdnpvd.co/giodsnijeuikkfn2mah7qlayghp7m2yqoxo72o6645haleeg2k24hclcze/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Los puentes de Madison (1995)" tvg-logo="POSTER" group-title="Películas" description="", Los puentes de Madison (1995)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leohp2a2meikkfn2mcbpyiqpfq4i4jfanwzcntn4mhmgavfeuq6xudoq3q/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="The Sacrament (2013)" tvg-logo="POSTER" group-title="Películas" description="", The Sacrament (2013)
+http://216.244.244.252:49412/md/get.php?url=https://stream-3691-48-220.cdnpvd.co/leoho3v7nqikkfn2mbk7ymq4gbpkukwt2ekx3ccp42mxc2sflh4eqah7tq/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="El hechicero y la serpiente blanca (2011)" tvg-logo="POSTER" group-title="Películas" description="", El hechicero y la serpiente blanca (2011)
+http://216.244.244.252:49412/md/get.php?url=https://stream-4338-55-56.cdnpvd.co/kyohotaxnmikkfn2mah7yzqimmvpkro5ze5u7mjjmmndm3gzmok7n5oeiu/v.mp4
+
+#EXTINF:-1 tvg-id="tt" tvg-name="Willow (1988)" tvg-logo="POSTER" group-title="Películas" description="", Willow (1988)
+http://216.244.244.252:49412/md/get.php?url=https://stream-8036-107-115.cdnpvd.co/f4ocj6afhyikkfn2mbgpqjate5rtwilgblzxs3qdxzxe5oemiehf6or7s4/v.mp4
+
+

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Seguimiento de Colectivos - HTTPS Wrapper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            padding: 0;
+        }
+        
+        .header {
+            background: #0d6efd;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        
+        .header p {
+            margin: 10px 0 0;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 25px;
+        }
+        
+        .iframe-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .iframe-container iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        
+        .instructions {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .instructions h3 {
+            color: #0d6efd;
+            margin-top: 0;
+        }
+        
+        .steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #0d6efd;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+        }
+        
+        .btn-touch-friendly {
+            min-height: 44px;
+            padding: 10px 16px;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+        
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .iframe-container iframe {
+                height: 500px;
+            }
+            
+            .step {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-bus me-2"></i>Sistema de Seguimiento de Colectivos</h1>
+            <p>Versión HTTPS para habilitar funciones de geolocalización</p>
+        </div>
+        
+        <div class="content">
+            <div class="instructions">
+                <h3><i class="fas fa-info-circle me-2"></i>¿Por qué esta solución?</h3>
+                <p>Los navegadores modernos solo permiten el uso de geolocalización en contextos seguros (HTTPS). Esta página actúa como contenedor seguro para tu aplicación, permitiendo el uso completo de todas las funciones de ubicación.</p>
+            </div>
+            
+            <div class="steps">
+                <div class="step">
+                    <h4><span class="step-number">1</span> Contenedor seguro</h4>
+                    <p>Esta página está servida mediante HTTPS, lo que permite utilizar la API de geolocalización.</p>
+                </div>
+                <div class="step">
+                    <h4><span class="step-number">2</span> Iframe con tu aplicación</h4>
+                    <p>Tu aplicación HTTP original se carga dentro de un iframe, manteniendo todas sus funcionalidades.</p>
+                </div>
+                <div class="step">
+                    <h4><span class="step-number">3</span> Comunicación segura</h4>
+                    <p>El iframe puede comunicarse con esta página para habilitar las funciones de ubicación.</p>
+                </div>
+            </div>
+            
+            <div class="iframe-container">
+                <iframe src="http://fpp-mdy.dyndns.org:49412/public/main2/" id="busTrackerFrame" title="Sistema de seguimiento de colectivos"></iframe>
+            </div>
+            
+            <div class="controls">
+                <button class="btn btn-primary btn-touch-friendly" onclick="refreshIframe()">
+                    <i class="fas fa-sync-alt me-2"></i> Recargar aplicación
+                </button>
+                <button class="btn btn-success btn-touch-friendly" onclick="requestLocation()">
+                    <i class="fas fa-location-arrow me-2"></i> Obtener ubicación
+                </button>
+                <button class="btn btn-info btn-touch-friendly" onclick="showInstructions()">
+                    <i class="fas fa-question-circle me-2"></i> Instrucciones
+                </button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Sistema de Seguimiento de Colectivos | Solución HTTPS para desarrollo</p>
+            <p>© 2023 - Todos los derechos reservados</p>
+        </div>
+    </div>
+
+    <script>
+        // Función para recargar el iframe
+        function refreshIframe() {
+            const iframe = document.getElementById('busTrackerFrame');
+            iframe.src = iframe.src; // Recargar el iframe
+            showNotification('Aplicación recargada correctamente', 'success');
+        }
+        
+        // Función para solicitar ubicación
+        function requestLocation() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(
+                    function(position) {
+                        // Enviar la ubicación al iframe (esto requiere que el iframe tenga código para recibirlo)
+                        const iframe = document.getElementById('busTrackerFrame');
+                        iframe.contentWindow.postMessage({
+                            type: 'location',
+                            coords: {
+                                latitude: position.coords.latitude,
+                                longitude: position.coords.longitude
+                            }
+                        }, '*');
+                        
+                        showNotification('Ubicación obtenida correctamente', 'success');
+                    },
+                    function(error) {
+                        let errorMessage;
+                        switch(error.code) {
+                            case error.PERMISSION_DENIED:
+                                errorMessage = "Permiso de ubicación denegado.";
+                                break;
+                            case error.POSITION_UNAVAILABLE:
+                                errorMessage = "Información de ubicación no disponible.";
+                                break;
+                            case error.TIMEOUT:
+                                errorMessage = "Tiempo de espera agotado.";
+                                break;
+                            default:
+                                errorMessage = "Error desconocido.";
+                                break;
+                        }
+                        showNotification('Error: ' + errorMessage, 'danger');
+                    },
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 10000,
+                        maximumAge: 60000
+                    }
+                );
+            } else {
+                showNotification('Geolocalización no compatible con este navegador', 'danger');
+            }
+        }
+        
+        // Función para mostrar notificaciones
+        function showNotification(message, type) {
+            // Crear elemento de notificación
+            const notification = document.createElement('div');
+            notification.className = `alert alert-${type} alert-dismissible fade show`;
+            notification.style.position = 'fixed';
+            notification.style.top = '20px';
+            notification.style.right = '20px';
+            notification.style.zIndex = '10000';
+            notification.style.minWidth = '300px';
+            notification.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            
+            // Agregar al documento
+            document.body.appendChild(notification);
+            
+            // Auto-eliminarse después de 5 segundos
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 5000);
+        }
+        
+        // Función para mostrar instrucciones
+        function showInstructions() {
+            alert("Para utilizar esta solución:\n\n1. Asegúrate de que tu aplicación esté disponible en un servidor HTTP\n2. Reemplaza 'http://tu-dominio.com/tu-aplicacion' con la URL de tu aplicación\n3. La geolocalización funcionará a través de este contenedor HTTPS");
+        }
+        
+        // Escuchar mensajes desde el iframe
+        window.addEventListener('message', function(event) {
+            // Aquí puedes manejar mensajes provenientes del iframe
+            if (event.data && event.data.type === 'locationRequest') {
+                // El iframe está solicitando ubicación
+                requestLocation();
+            }
+        });
+    </script>
+</body>
+</html>

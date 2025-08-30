@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Seguimiento de Colectivos - BusTrack</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0d6efd;
+            --secondary: #6c757d;
+            --success: #198754;
+            --danger: #dc3545;
+            --warning: #ffc107;
+            --light: #f8f9fa;
+            --dark: #212529;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        
+        .app-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .navbar {
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .module {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .sidebar {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .search-box i {
+            position: absolute;
+            left: 15px;
+            top: 12px;
+            color: #6c757d;
+        }
+        
+        .search-box input {
+            padding-left: 40px;
+        }
+        
+        .bus-list {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .bus-item {
+            border-left: 4px solid var(--primary);
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background: var(--light);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .bus-item:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+        
+        .bus-item.active {
+            background: #e3f2fd;
+            border-left: 4px solid var(--warning);
+        }
+        
+        .stats-card {
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .stats-card i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .stats-card h3 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        
+        #map {
+            height: 400px;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        
+        .nav-tabs .nav-link {
+            font-weight: 500;
+            padding: 12px 20px;
+        }
+        
+        .form-container {
+            padding: 20px 0;
+        }
+        
+        /* Estilos específicos para mejorar la experiencia táctil */
+        .btn-touch-friendly {
+            min-height: 44px;
+            padding: 12px 18px;
+            font-size: 16px;
+            touch-action: manipulation;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn-group-touch {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .btn-group-touch .btn {
+            flex: 1;
+            min-width: 140px;
+        }
+        
+        .location-error {
+            display: none;
+            background: #f8d7da;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .api-error {
+            display: none;
+            background: #fff3cd;
+            color: #856404;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        
+        /* Mejorar visibilidad de los botones en móviles */
+        @media (max-width: 768px) {
+            .btn-group-touch {
+                width: 100%;
+            }
+            
+            .btn-group-touch .btn {
+                margin-bottom: 8px;
+                min-width: 120px;
+            }
+            
+            .btn i {
+                font-size: 18px;
+                margin-right: 5px;
+            }
+            
+            #map {
+                height: 300px;
+            }
+            
+            .container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
+            .app-container {
+                border-radius: 10px;
+            }
+        }
+        
+        /* Loaders */
+        .location-loader, .api-loader {
+            display: none;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .location-loader .spinner-border, .api-loader .spinner-border {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        
+        /* Notificaciones */
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1050;
+            min-width: 300px;
+            display: none;
+        }
+        
+        /* Leyenda del mapa */
+        .legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            line-height: 1.5;
+        }
+        
+        .legend h6 {
+            margin: 0 0 10px;
+            text-align: center;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 2px solid white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-bus me-2"></i>BusTrack
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><i class="fas fa-map-marker-alt me-1"></i> Mapa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-bus me-1"></i> Colectivos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-users me-1"></i> Conductores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="driver_login.php"><i class="fas fa-user me-1"></i> Login Conductor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <!-- Sidebar con lista de colectivos -->
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <h4 class="mb-4"><i class="fas fa-bus me-2"></i>Colectivos Activos</h4>
+                        
+                        <!-- Buscador -->
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" class="form-control" placeholder="Buscar colectivo..." id="searchBus">
+                        </div>
+                        
+                        <!-- Lista de colectivos -->
+                        <div class="bus-list" id="busList">
+                            <div class="api-loader" id="busLoader">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Cargando...</span>
+                                </div>
+                                <p class="mt-2">Cargando colectivos...</p>
+                            </div>
+                            <div class="api-error" id="busError">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                <span>Error al cargar los colectivos. Verifique la conexión.</span>
+                            </div>
+                            <!-- Los colectivos se cargarán dinámicamente con JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Estadísticas -->
+                    <div class="module mt-4">
+                        <h5 class="mb-3"><i class="fas fa-chart-bar me-2"></i>Estadísticas</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="stats-card bg-primary">
+                                    <i class="fas fa-bus"></i>
+                                    <h3 id="totalBuses">0</h3>
+                                    <p>Colectivos</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stats-card bg-success">
+                                    <i class="fas fa-users"></i>
+                                    <h3 id="activeDrivers">0</h3>
+                                    <p>Conductores activos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mapa y controles principales -->
+                <div class="col-md-8">
+                    <!-- Mapa -->
+                    <div class="module">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4><i class="fas fa-map me-2"></i>Mapa en Tiempo Real</h4>
+                            <div class="btn-group-touch" role="group" aria-label="Controles del mapa">
+                                <button class="btn btn-outline-primary btn-sm btn-touch-friendly" id="refreshMap">
+                                    <i class="fas fa-sync-alt me-1"></i> <span class="btn-text">Actualizar</span>
+                                </button>
+                                <button class="btn btn-outline-primary btn-sm btn-touch-friendly" id="locateMe">
+                                    <i class="fas fa-location-arrow me-1"></i> <span class="btn-text">Mi ubicación</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="map"></div>
+                        <div class="location-error" id="locationError">
+                            <i class="fas fa-exclamation-circle me-2"></i>
+                            <span>No se pudo obtener la ubicación. Asegúrese de estar en HTTPS o habilite la geolocalización insegura.</span>
+                        </div>
+                        <div class="location-loader" id="locationLoader">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Cargando...</span>
+                            </div>
+                            <p class="mt-2">Obteniendo ubicación...</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel de pestañas -->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="add-bus-tab" data-bs-toggle="tab" data-bs-target="#add-bus" type="button" role="tab">
+                                <i class="fas fa-bus me-1"></i>Agregar Colectivo
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="add-driver-tab" data-bs-toggle="tab" data-bs-target="#add-driver" type="button" role="tab">
+                                <i class="fas fa-user me-1"></i>Agregar Conductor
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="assign-tab" data-bs-toggle="tab" data-bs-target="#assign" type="button" role="tab">
+                                <i class="fas fa-link me-1"></i>Asignar Conductor
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="add-bus" role="tabpanel">
+                            <h5>Agregar nuevo colectivo</h5>
+                            <form id="addBusForm" class="form-container">
+                                <div class="mb-3">
+                                    <label for="lineNumber" class="form-label">Número de línea</label>
+                                    <input type="text" class="form-control" id="lineNumber" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="licensePlate" class="form-label">Patente</label>
+                                    <input type="text" class="form-control" id="licensePlate" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="model" class="form-label">Modelo</label>
+                                    <input type="text" class="form-control" id="model">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="capacity" class="form-label">Capacidad</label>
+                                    <input type="number" class="form-control" id="capacity">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-touch-friendly">Agregar Colectivo</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="add-driver" role="tabpanel">
+                            <h5>Agregar nuevo conductor</h5>
+                            <form id="addDriverForm" class="form-container">
+                                <div class="mb-3">
+                                    <label for="driverName" class="form-label">Nombre completo</label>
+                                    <input type="text" class="form-control" id="driverName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="driverPhone" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="driverPhone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="driverEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="driverEmail">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="licenseNumber" class="form-label">Número de licencia</label>
+                                    <input type="text" class="form-control" id="licenseNumber" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-touch-friendly">Agregar Conductor</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="assign" role="tabpanel">
+                            <h5>Asignar conductor a colectivo</h5>
+                            <form id="assignDriverForm" class="form-container">
+                                <div class="mb-3">
+                                    <label for="selectBus" class="form-label">Seleccionar colectivo</label>
+                                    <select class="form-select" id="selectBus" required>
+                                        <option value="">Cargando colectivos...</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="selectDriver" class="form-label">Seleccionar conductor</label>
+                                    <select class="form-select" id="selectDriver" required>
+                                        <option value="">Cargando conductores...</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-touch-friendly">Asignar Conductor</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notificación -->
+    <div class="notification alert alert-success alert-dismissible fade show" role="alert" id="notification">
+        <span id="notificationText"></span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // URL base de tu API PHP
+        const API_BASE_URL = 'http://fpp-mdy.dyndns.org:49412/public/main2/api';
+        
+        // Inicializar el mapa
+        var map = L.map('map').setView([-34.6037, -58.3816], 13);
+        
+        // Añadir capa de tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        
+        // Añadir leyenda
+        var legend = L.control({position: 'bottomright'});
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'legend');
+            div.innerHTML = `
+                <h6>Leyenda</h6>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #0d6efd;"></span>
+                    <span>Colectivo activo</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #6c757d;"></span>
+                    <span>Colectivo inactivo</span>
+                </div>
+            `;
+            return div;
+        };
+        legend.addTo(map);
+        
+        // Iconos para los colectivos
+        var busIconActive = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+        
+        var busIconInactive = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+        
+        // Variables globales
+        var markers = [];
+        var userLocationMarker = null;
+        var buses = [];
+        var drivers = [];
+
+        // Función para mostrar notificación
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            const notificationText = document.getElementById('notificationText');
+            
+            notification.className = `notification alert alert-${type} alert-dismissible fade show`;
+            notificationText.textContent = message;
+            notification.style.display = 'block';
+            
+            // Ocultar después de 5 segundos
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 5000);
+        }
+
+        // Función para cargar datos desde la API
+        async function loadData() {
+            const busLoader = document.getElementById('busLoader');
+            const busError = document.getElementById('busError');
+            
+            busLoader.style.display = 'block';
+            busError.style.display = 'none';
+            
+            try {
+                // Cargar colectivos
+                const busesResponse = await fetch(`${API_BASE_URL}/get_buses.php`);
+                if (!busesResponse.ok) {
+                    throw new Error(`Error HTTP: ${busesResponse.status}`);
+                }
+                
+                const busesData = await busesResponse.json();
+                
+                if (busesData.error) {
+                    throw new Error(busesData.message);
+                }
+                
+                buses = busesData.buses || [];
+                renderBusesList(buses);
+                
+                // Actualizar estadísticas
+                document.getElementById('totalBuses').textContent = buses.length;
+                document.getElementById('activeDrivers').textContent = buses.filter(bus => bus.driver_id).length;
+                
+                // Renderizar marcadores en el mapa
+                renderMapMarkers(buses);
+                
+                // Llenar selectores de formularios
+                populateSelects(buses);
+                
+                busLoader.style.display = 'none';
+                
+            } catch (error) {
+                console.error('Error cargando datos:', error);
+                busLoader.style.display = 'none';
+                busError.style.display = 'block';
+                busError.querySelector('span').textContent = `Error: ${error.message}`;
+                
+                // Datos de ejemplo para desarrollo
+                loadSampleData();
+            }
+        }
+
+        // Función para cargar datos de ejemplo (solo para desarrollo)
+        function loadSampleData() {
+            buses = [
+                {
+                    id: 1,
+                    line_number: "102",
+                    license_plate: "ABC123",
+                    model: "Mercedes Benz",
+                    capacity: 40,
+                    driver_id: 1,
+                    driver_name: "Juan Pérez",
+                    latitude: -34.6037,
+                    longitude: -58.3816,
+                    speed: 40,
+                    last_update: "2023-05-15 10:30:00",
+                    gps_enabled: true
+                },
+                {
+                    id: 2,
+                    line_number: "145",
+                    license_plate: "DEF456",
+                    model: "Volvo",
+                    capacity: 35,
+                    driver_id: 2,
+                    driver_name: "María García",
+                    latitude: -34.6083,
+                    longitude: -58.3712,
+                    speed: 35,
+                    last_update: "2023-05-15 10:32:00",
+                    gps_enabled: true
+                }
+            ];
+            
+            drivers = [
+                {id: 1, name: "Juan Pérez", phone: "123-456-7890", license_number: "LIC123"},
+                {id: 2, name: "María García", phone: "098-765-4321", license_number: "LIC456"}
+            ];
+            
+            renderBusesList(buses);
+            document.getElementById('totalBuses').textContent = buses.length;
+            document.getElementById('activeDrivers').textContent = buses.filter(bus => bus.driver_id).length;
+            renderMapMarkers(buses);
+            populateSelects(buses);
+            
+            showNotification('Usando datos de ejemplo. La API no está disponible.', 'warning');
+        }
+
+        // Renderizar lista de colectivos
+        function renderBusesList(buses) {
+            const busList = document.getElementById('busList');
+            // Limpiar solo los elementos de bus, no los mensajes de estado
+            const busItems = busList.querySelectorAll('.bus-item');
+            busItems.forEach(item => item.remove());
+            
+            buses.forEach(bus => {
+                const busItem = document.createElement('div');
+                busItem.className = 'bus-item';
+                busItem.setAttribute('data-id', bus.id);
+                busItem.setAttribute('data-lat', bus.latitude);
+                busItem.setAttribute('data-lng', bus.longitude);
+                busItem.innerHTML = `
+                    <div class="d-flex justify-content-between">
+                        <h5 class="mb-1">Línea ${bus.line_number}</h5>
+                        <span class="badge bg-${bus.gps_enabled ? 'success' : 'warning'}">${bus.gps_enabled ? 'Activo' : 'Inactivo'}</span>
+                    </div>
+                    <p class="mb-1">Patente: ${bus.license_plate}</p>
+                    <small>Conductor: ${bus.driver_name || 'Sin asignar'}</small>
+                    <small class="d-block">Velocidad: ${bus.speed || '0'} km/h</small>
+                `;
+                
+                busItem.addEventListener('click', () => {
+                    document.querySelectorAll('.bus-item').forEach(item => item.classList.remove('active'));
+                    busItem.classList.add('active');
+                    if (bus.latitude && bus.longitude) {
+                        map.setView([bus.latitude, bus.longitude], 15);
+                        // Abrir popup del marcador correspondiente
+                        const marker = markers.find(m => m._busId === bus.id);
+                        if (marker) {
+                            marker.openPopup();
+                        }
+                    }
+                });
+                
+                busList.appendChild(busItem);
+            });
+            
+            // Configurar búsqueda
+            document.getElementById('searchBus').addEventListener('input', function(e) {
+                const searchTerm = e.target.value.toLowerCase();
+                const busItems = document.querySelectorAll('.bus-item');
+                
+                busItems.forEach(item => {
+                    const busText = item.textContent.toLowerCase();
+                    if (busText.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        }
+
+        // Renderizar marcadores en el mapa
+        function renderMapMarkers(buses) {
+            // Limpiar marcadores existentes
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+            
+            // Agregar nuevos marcadores
+            buses.forEach(bus => {
+                if (bus.latitude && bus.longitude) {
+                    const icon = bus.gps_enabled ? busIconActive : busIconInactive;
+                    const marker = L.marker([bus.latitude, bus.longitude], {icon: icon})
+                        .addTo(map)
+                        .bindPopup(`
+                            <b>Línea ${bus.line_number}</b><br>
+                            Patente: ${bus.license_plate}<br>
+                            Conductor: ${bus.driver_name || 'Sin asignar'}<br>
+                            Velocidad: ${bus.speed || '0'} km/h<br>
+                            Última actualización: ${bus.last_update || 'N/A'}
+                        `);
+                    
+                    // Guardar ID del bus en el marcador para referencia
+                    marker._busId = bus.id;
+                    markers.push(marker);
+                }
+            });
+            
+            // Ajustar la vista del mapa para mostrar todos los marcadores
+            if (markers.length > 0) {
+                const group = new L.featureGroup(markers);
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
+        }
+
+        // Llenar selectores de formularios
+        function populateSelects(buses) {
+            const busSelect = document.getElementById('selectBus');
+            
+            // Limpiar selects
+            busSelect.innerHTML = '<option value="">Seleccione un colectivo</option>';
+            
+            // Llenar select de colectivos
+            buses.forEach(bus => {
+                const option = document.createElement('option');
+                option.value = bus.id;
+                option.textContent = `Línea ${bus.line_number} - ${bus.license_plate}`;
+                busSelect.appendChild(option);
+            });
+        }
+
+        // Función para obtener ubicación
+        function getLocation() {
+            const locationError = document.getElementById('locationError');
+            const locationLoader = document.getElementById('locationLoader');
+            
+            locationLoader.style.display = 'block';
+            locationError.style.display = 'none';
+            
+            if (!navigator.geolocation) {
+                locationLoader.style.display = 'none';
+                locationError.style.display = 'block';
+                locationError.querySelector('span').textContent = 'La geolocalización no es compatible con este navegador';
+                return;
+            }
+            
+            navigator.geolocation.getCurrentPosition(
+                function(position) {
+                    locationLoader.style.display = 'none';
+                    const latlng = [position.coords.latitude, position.coords.longitude];
+                    map.setView(latlng, 15);
+                    
+                    // Eliminar marcador anterior si existe
+                    if (userLocationMarker) {
+                        map.removeLayer(userLocationMarker);
+                    }
+                    
+                    // Agregar nuevo marcador
+                    userLocationMarker = L.marker(latlng)
+                        .addTo(map)
+                        .bindPopup('Su ubicación actual')
+                        .openPopup();
+                    
+                    showNotification('Ubicación obtenida correctamente');
+                },
+                function(error) {
+                    locationLoader.style.display = 'none';
+                    locationError.style.display = 'block';
+                    
+                    let errorMessage;
+                    switch(error.code) {
+                        case error.PERMISSION_DENIED:
+                            errorMessage = "Permiso de ubicación denegado. Por favor, habilite la geolocalización en su navegador.";
+                            break;
+                        case error.POSITION_UNAVAILABLE:
+                            errorMessage = "Información de ubicación no disponible.";
+                            break;
+                        case error.TIMEOUT:
+                            errorMessage = "Tiempo de espera para obtener la ubicación agotado.";
+                            break;
+                        default:
+                            errorMessage = "Error desconocido al obtener la ubicación.";
+                            break;
+                    }
+                    
+                    locationError.querySelector('span').textContent = errorMessage;
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 10000,
+                    maximumAge: 60000
+                }
+            );
+        }
+
+        // Inicializar la aplicación
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cargar datos iniciales
+            loadData();
+            
+            // Configurar event listeners
+            document.getElementById('refreshMap').addEventListener('click', function() {
+                loadData();
+                showNotification('Datos actualizados');
+            });
+            
+            document.getElementById('locateMe').addEventListener('click', getLocation);
+            
+            // Manejar envío de formularios
+            document.getElementById('addBusForm').addEventListener('submit', async function(e) {
+                e.preventDefault();
+                
+                const formData = {
+                    line_number: document.getElementById('lineNumber').value,
+                    license_plate: document.getElementById('licensePlate').value,
+                    model: document.getElementById('model').value,
+                    capacity: document.getElementById('capacity').value
+                };
+                
+                try {
+                    const response = await fetch(`${API_BASE_URL}/add_bus.php`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(formData)
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.message) {
+                        showNotification(result.message);
+                        this.reset();
+                        loadData(); // Recargar datos
+                    } else {
+                        showNotification('Error al procesar la solicitud', 'danger');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    showNotification('Error al agregar el colectivo. Usando modo simulación.', 'warning');
+                    // Simular éxito para desarrollo
+                    setTimeout(() => {
+                        showNotification('Colectivo agregado correctamente (simulado)');
+                        this.reset();
+                        loadData();
+                    }, 1000);
+                }
+            });
+            
+            // Formulario para agregar conductor
+            document.getElementById('addDriverForm').addEventListener('submit', async function(e) {
+                e.preventDefault();
+                
+                const formData = {
+                    name: document.getElementById('driverName').value,
+                    phone: document.getElementById('driverPhone').value,
+                    email: document.getElementById('driverEmail').value,
+                    license_number: document.getElementById('licenseNumber').value
+                };
+                
+                try {
+                    const response = await fetch(`${API_BASE_URL}/add_driver.php`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(formData)
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.message) {
+                        showNotification(result.message);
+                        this.reset();
+                    } else {
+                        showNotification('Error al procesar la solicitud', 'danger');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    showNotification('Error al agregar el conductor. Usando modo simulación.', 'warning');
+                    // Simular éxito para desarrollo
+                    setTimeout(() => {
+                        showNotification('Conductor agregado correctamente (simulado)');
+                        this.reset();
+                    }, 1000);
+                }
+            });
+            
+            // Formulario para asignar conductor
+            document.getElementById('assignDriverForm').addEventListener('submit', async function(e) {
+                e.preventDefault();
+                
+                const formData = {
+                    bus_id: document.getElementById('selectBus').value,
+                    driver_id: document.getElementById('selectDriver').value
+                };
+                
+                try {
+                    const response = await fetch(`${API_BASE_URL}/assign_driver.php`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(formData)
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.message) {
+                        showNotification(result.message);
+                        this.reset();
+                        loadData(); // Recargar datos
+                    } else {
+                        showNotification('Error al procesar la solicitud', 'danger');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    showNotification('Error al asignar el conductor. Usando modo simulación.', 'warning');
+                    // Simular éxito para desarrollo
+                    setTimeout(() => {
+                        showNotification('Conductor asignado correctamente (simulado)');
+                        this.reset();
+                        loadData();
+                    }, 1000);
+                }
+            });
+            
+            // Cargar conductores para el selector (simulado)
+            setTimeout(() => {
+                const driverSelect = document.getElementById('selectDriver');
+                driverSelect.innerHTML = '<option value="">Seleccione un conductor</option>';
+                
+                // Datos de ejemplo para conductores
+                const sampleDrivers = [
+                    {id: 1, name: "Juan Pérez", license_number: "LIC123"},
+                    {id: 2, name: "María García", license_number: "LIC456"},
+                    {id: 3, name: "Carlos López", license_number: "LIC789"}
+                ];
+                
+                sampleDrivers.forEach(driver => {
+                    const option = document.createElement('option');
+                    option.value = driver.id;
+                    option.textContent = `${driver.name} - ${driver.license_number}`;
+                    driverSelect.appendChild(option);
+                });
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

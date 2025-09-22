@@ -42,32 +42,26 @@ function initMap() {
 
 // Configurar event listeners
 function setupEventListeners() {
-    // Búsqueda de colectivos - MODIFICADA
     document.getElementById('searchBus').addEventListener('input', function(e) {
         const searchTerm = e.target.value.toLowerCase().trim();
         const buses = document.querySelectorAll('.bus-card');
-        
+
         buses.forEach(bus => {
-            const busTitle = bus.querySelector('.card-title').textContent.toLowerCase();
-            const busText = bus.textContent.toLowerCase();
-            
-            // Extraer el número de línea del título (ej: "línea 1-ida" → "1")
-            const lineNumberMatch = busTitle.match(/línea\s*(\d+)/);
-            const lineNumber = lineNumberMatch ? lineNumberMatch[1] : '';
-            
-            // Mostrar u ocultar según coincidencia
-            if (
-                lineNumber.includes(searchTerm) || // Coincide con número de línea
-                busText.includes(searchTerm) ||    // Coincide con cualquier texto
-                busTitle.includes(searchTerm)      // Coincide específicamente con el título
-            ) {
-                bus.style.display = 'block';
-            } else {
-                bus.style.display = 'none';
-            }
+            const busTitleElement = bus.querySelector('.card-title');
+            if (!busTitleElement) return;
+
+            // Obtener el título sin la palabra "Línea"
+            let busTitle = busTitleElement.textContent.toLowerCase().replace(/^línea\s*/i, '').trim();
+
+            // Coincidencia parcial: si el término buscado aparece en el título
+            const matches = busTitle.includes(searchTerm);
+
+            // Mostrar u ocultar
+            bus.style.display = matches ? 'block' : 'none';
         });
     });
-    
+}
+
     // Localizar usuario
     document.getElementById('locateMe').addEventListener('click', function() {
         if (navigator.geolocation) {

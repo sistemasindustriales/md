@@ -41,27 +41,61 @@ function initMap() {
 }
 
 // Configurar event listeners
+// Configurar event listeners
 function setupEventListeners() {
+    // Búsqueda de colectivos
     document.getElementById('searchBus').addEventListener('input', function(e) {
-        const searchTerm = e.target.value.toLowerCase().trim();
+        let searchTerm = e.target.value.toLowerCase().trim();
+
+        // Normalizar el término de búsqueda (ignorar "línea")
+        searchTerm = searchTerm.replace(/^línea\s*/i, '').trim();
+
         const buses = document.querySelectorAll('.bus-card');
 
         buses.forEach(bus => {
-            const busTitleElement = bus.querySelector('.card-title');
-            if (!busTitleElement) return;
+            const titleElement = bus.querySelector('.card-title');
+            if (!titleElement) return;
 
-            // Obtener el título sin la palabra "Línea"
-            let busTitle = busTitleElement.textContent.toLowerCase().replace(/^línea\s*/i, '').trim();
+            // Obtener el texto del título y limpiar la palabra "línea"
+            let busTitle = titleElement.textContent.toLowerCase().trim();
+            busTitle = busTitle.replace(/^línea\s*/i, '').trim();
 
-            // Coincidencia parcial: si el término buscado aparece en el título
-            const matches = busTitle.includes(searchTerm);
-
-            // Mostrar u ocultar
-            bus.style.display = matches ? 'block' : 'none';
+            // Mostrar si coincide con la búsqueda (en cualquier parte del texto)
+            if (busTitle.includes(searchTerm)) {
+                bus.style.display = 'block';
+            } else {
+                bus.style.display = 'none';
+            }
         });
     });
+
+    // Localizar usuario
+    document.getElementById('locateMe').addEventListener('click', function() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                map.setView([position.coords.latitude, position.coords.longitude], 15);
+                L.marker([position.coords.latitude, position.coords.longitude])
+                    .addTo(map)
+                    .bindPopup('Su ubicación actual')
+                    .openPopup();
+            });
+        } else {
+            alert('La geolocalización no es compatible con este navegador.');
+        }
+    });
+
+    // Actualizar mapa
+    document.getElementById('refreshMap').addEventListener('click', function() {
+        loadBuses();
+    });
+
+    // Formularios
+    document.getElementById('addBusForm').addEventListener('submit', handleAddBus);
+    document.getElementById('addDriverForm').addEventListener('submit', handleAddDriver);
+    document.getElementById('assignDriverForm').addEventListener('submit', handleAssignDriver);
 }
 
+    
     // Localizar usuario
     document.getElementById('locateMe').addEventListener('click', function() {
         if (navigator.geolocation) {
@@ -87,8 +121,6 @@ function setupEventListeners() {
     document.getElementById('addDriverForm').addEventListener('submit', handleAddDriver);
     document.getElementById('assignDriverForm').addEventListener('submit', handleAssignDriver);
 }
-
-
 
 // Cargar lista de colectivos
 function loadBuses() {
@@ -124,15 +156,13 @@ function updateBusList(buses) {
                 <p hide class="hide card-text mb-1">Conductor: ${bus.driver_name || 'No asignado'}</p>
                 <p hide class="hide card-text mb-2">Velocidad: ${speed}</p>
                 <div class="d-flex gap-2">
-                    <button class="btn btn-sm btn-outline-primary" onclick="focusOnBus(${bus.id})">
-                        Seguir en mapa
-                    </button>
+
                     <a href="https://madrynapps.com/ceferino/${bus.line_number}.php" 
-                       class="btn btn-sm btn-primary d-flex align-items-center" >
+                       class="btn btn-sm btn-outline-primary d-flex align-items-center" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock me-1" viewBox="0 0 16 16">
                             <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
                             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
-                        </svg></a>
+                        </svg> Horarios</a>
                 </div>
             </div>
         `;
